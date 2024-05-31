@@ -114,14 +114,14 @@ usable IP's: `190.3.2.253`, `190.3.2.254`
 
 ## Switches
 
-A switch will enable you to connect more than two devices to the same network.<br>
-Its only purpose is to distribute packages to its network.<br>
+A <mark>switch<mark> will enable you to connect <mark>more than two devices to the same network<mark>.<br>
+Its only purpose is to <mark>distribute packages to its network<mark>.<br>
 To see a working example, you can take a look at [Level 3](https://github.com/tblaase/Net_Practice/blob/main/my_solutions/Level_3.png).<br>
 
 ## Routers
 
-As previously mentioned a router is an interface which enables communication between different networks.<br>
-A router has the ability to be part of multiple networks, in Netpractice this is visualized by the so called `Interface`.<br>
+As previously mentioned a <mark>router<mark> is an interface which enables communication between <mark>different networks<mark>.<br>
+A router has the ability to be <mark>part of multiple networks<mark>, in Netpractice this is visualized by the so called <mark>`Interface`<mark>.<br>
 If routers and switches are still magic to you, I suggest looking deeper [into it](https://www.youtube.com/watch?v=Vc16CCAAz7Q) yourself, as their basic understanding is crucial to succeed in this project.
 
 
@@ -135,7 +135,7 @@ If routers and switches are still magic to you, I suggest looking deeper [into i
 
 The routing table is there to store all the different paths to all the networks, the device is part of.<br>
 In Net_Practice the routing table consists of two elements, the **destination** and the **next hop**<br>
-The **destination** consists of the network-address that you want to send a package to, combined with the CIDR of that network: `190.3.2.252/30`. If you don't want to specify a destination, you can just set it to `default` or `0.0.0.0/0`.<br>
+The <marks>**destination** consists of the network-address that you want to send a package to<mark>, combined with the CIDR of that network: `190.3.2.252/30`. If you don't want to specify a destination, you can just set it to `default` or `0.0.0.0/0`.<br>
 The **next hop** is the address of the next router that you need to send the packages to in order to reach the destination-network.<br>
 
 
